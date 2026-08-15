@@ -66,13 +66,22 @@ html, body, [class*="css"], .stApp { background:#ffffff !important; font-family:
 .hero {
     background:#111111;
     border-radius:0 0 28px 28px;
-    padding:48px 40px 38px;
+    padding:70px 40px 38px;
     text-align:center;
-    margin:-60px -60px 36px -60px;
+    margin-top: -60px;
+    margin-bottom: 36px;
     box-shadow:0 8px 40px rgba(0,0,0,0.25);
-    margin-top: -20px;
+    /* Full-bleed trick that works at any screen width, unlike a fixed px margin:
+       pull the element to the viewport edges using 50vw, then push back by half
+       of the (centered) content column's own width. */
+    width: 100vw;
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
+}
+@media (max-width: 600px) {
+    .hero { padding:36px 20px 28px; border-radius:0 0 20px 20px; }
+    .hero h1 { font-size:1.9rem; }
+    .footer { padding:20px 12px 14px; font-size:10.5px; }
 }
 .hero .eyebrow { font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:rgba(255,255,255,.45); margin-bottom:12px; }
 .hero h1 { font-family:'Playfair Display',serif; font-size:2.6rem; font-weight:700; color:#fff !important; margin:0 0 10px; line-height:1.15; }
