@@ -66,7 +66,7 @@ html, body, [class*="css"], .stApp { background:#ffffff !important; font-family:
 .hero {
     background:#111111;
     border-radius:0 0 28px 28px;
-    padding:100px 40px 38px;
+    padding:150px 40px 38px;
     text-align:center;
     margin-top: -60px;
     margin-bottom: 36px;
