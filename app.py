@@ -66,9 +66,9 @@ html, body, [class*="css"], .stApp { background:#ffffff !important; font-family:
 .hero {
     background:#111111;
     border-radius:0 0 28px 28px;
-    padding:200px 40px 38px;
+    padding:48px 40px 38px;
     text-align:center;
-    margin-top: -60px;
+    margin-top: 0;
     margin-bottom: 36px;
     box-shadow:0 8px 40px rgba(0,0,0,0.25);
     /* Full-bleed trick that works at any screen width, unlike a fixed px margin:
