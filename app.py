@@ -98,7 +98,6 @@ html, body, [class*="css"], .stApp { background:#ffffff !important; font-family:
 .divider { border:none; border-top:1.5px solid #eaecf4; margin:26px 0; }
 
 div.stButton > button {
-    box-sizing: border-box !important;
     width:100%; background:#1a4d2e !important; color:#ffffff !important;
     border:2px solid #1a4d2e !important; border-radius:12px !important;
     padding:0 16px !important; font-size:13px !important; font-weight:600 !important;
@@ -109,6 +108,7 @@ div.stButton > button {
     transition:all .2s ease !important; margin-bottom:3px;
     box-shadow:0 2px 8px rgba(26,77,46,0.18) !important;
     line-height:1.2 !important;
+    width: 240px !important;
 }
 div.stButton > button > div,
 div.stButton > button p {
@@ -121,11 +121,12 @@ div.stButton > button:hover {
     transform:translateY(-1px);
 }
 div.stButton > button[kind="primary"] {
+    box-sizing: border-box !important;
     background:#1a4d2e !important; color:#fff !important; border:none !important;
     font-size:15px !important; font-weight:700 !important; text-align:center !important;
     box-shadow:0 4px 18px rgba(26,77,46,.35) !important; padding:15px 20px !important;
     border-radius:12px !important;
-    width: 770px !important;
+    width: 100% !important;
 }
 div.stButton > button[kind="primary"]:hover { background:#2d6a4f !important; box-shadow:0 6px 22px rgba(26,77,46,.40) !important; }
 div.stButton > button[kind="primary"]:disabled { background:#aaa !important; box-shadow:none !important; border-color:#aaa !important; }
