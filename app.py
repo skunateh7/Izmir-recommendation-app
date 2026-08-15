@@ -66,7 +66,7 @@ html, body, [class*="css"], .stApp { background:#ffffff !important; font-family:
 .hero {
     background:#111111;
     border-radius:0 0 28px 28px;
-    padding:150px 40px 38px;
+    padding:48px 40px 38px;
     text-align:center;
     margin-top: -60px;
     margin-bottom: 36px;
@@ -93,11 +93,12 @@ html, body, [class*="css"], .stApp { background:#ffffff !important; font-family:
     letter-spacing:.06em;
 }
 
-.section-label { font-family:'Playfair Display',serif; font-size:1.25rem; font-weight:700; color:#111; margin:0 0 4px; width: 100%;}
+.section-label { font-family:'Playfair Display',serif; font-size:1.25rem; font-weight:700; color:#111; margin:0 0 4px; }
 .section-sub { font-size:12px; color:#777; margin-bottom:16px; }
 .divider { border:none; border-top:1.5px solid #eaecf4; margin:26px 0; }
 
 div.stButton > button {
+    box-sizing: border-box !important;
     width:100%; background:#1a4d2e !important; color:#ffffff !important;
     border:2px solid #1a4d2e !important; border-radius:12px !important;
     padding:0 16px !important; font-size:13px !important; font-weight:600 !important;
@@ -108,7 +109,6 @@ div.stButton > button {
     transition:all .2s ease !important; margin-bottom:3px;
     box-shadow:0 2px 8px rgba(26,77,46,0.18) !important;
     line-height:1.2 !important;
-    width: 240px !important;
 }
 div.stButton > button > div,
 div.stButton > button p {
