@@ -93,7 +93,7 @@ html, body, [class*="css"], .stApp { background:#ffffff !important; font-family:
     letter-spacing:.06em;
 }
 
-.section-label { font-family:'Playfair Display',serif; font-size:1.25rem; font-weight:700; color:#111; margin:0 0 4px; }
+.section-label { font-family:'Playfair Display',serif; font-size:1.25rem; font-weight:700; color:#111; margin:0 0 4px; width: 100%;}
 .section-sub { font-size:12px; color:#777; margin-bottom:16px; }
 .divider { border:none; border-top:1.5px solid #eaecf4; margin:26px 0; }
 
