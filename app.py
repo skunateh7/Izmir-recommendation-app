@@ -490,7 +490,7 @@ st.markdown('<div class="section-label">Step 3 — AI Explanations (Optional)</d
 use_ai = st.toggle(
     "✨  Enable Groq AI explanations, insider tips & best visiting hours",
     value=False,
-    help="Uses LLaMA 3.3 70B via Groq (free). Adds a few seconds."
+    help="Uses GPT-OSS 120B via Groq (free). Adds a few seconds."
 )
 
 if use_ai:
